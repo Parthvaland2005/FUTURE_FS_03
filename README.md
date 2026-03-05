@@ -1,55 +1,33 @@
-# Siddheshwari Hair Style Website 💈
+# 💈 Siddheshwari Hair Style - Salon Website
 
-Professional Salon Website built as an **internship project**.
-
----
+Modern responsive salon website built using HTML, CSS, JavaScript.
 
 ## 🚀 Features
-- Premium UI design with animated effects
-- Appointment booking system with **Email notification**
-- WhatsApp booking integration
-- Hair Style Gallery & Before/After slider
-- Admin dashboard for bookings
-- Google Maps integration
-- Mobile Responsive (Desktop + Mobile)
-- Dark luxury design for premium feel
 
----
+- Premium UI Design
+- Services Section
+- Hair Style Gallery
+- Before / After Slider
+- Customer Reviews
+- Appointment Booking System
+- Email Notification using EmailJS
+- Google Maps Integration
+- WhatsApp Booking Button
+- Mobile Responsive Design
+- Basic Admin Dashboard
 
-## 📍 Salon Details
-**Name:** Siddheshwari Hair Style  
-**Address:** Vastral Road, Ahmedabad  
-**Phone:** +91 9727381028  
-**Opening Hours:** 10 AM – 8 PM  
+## 🛠 Technologies Used
 
----
+- HTML5
+- CSS3
+- JavaScript
+- EmailJS API
+- Google Maps Embed
 
-## 🛠️ Technologies Used
-- HTML / CSS / JavaScript
-- EmailJS for real email notifications
-- LocalStorage for Admin Dashboard
-- Google Maps embed
-- WhatsApp API for instant booking
+## 🌐 Live Website
 
----
+https://parthvaland2005.github.io/FUTURE_FS_03/
 
-## 🎯 Internship Impact
-This project demonstrates:
-- Real-world web development skills
-- Client-facing UI/UX thinking
-- Business problem solving
-- Professional portfolio-ready project
+## 👨‍💻 Developer
 
----
-
-## 📂 Live Demo
-[View Live Website](https://username.github.io/FUTURE_FS_03)
-
----
-
-## 🖼️ Screenshots
-![Home](images/home.png)
-![Services](images/services.png)
-![Gallery](images/gallery.png)
-![Booking](images/booking.png)
-![Admin Dashboard](images/admin.png)# FUTURE_FS_03
+Parth Valand
