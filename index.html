@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Siddheshwari Hair Style</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<header>
+
+<h1>Siddheshwari Hair Style</h1>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#about">About</a>
+<a href="#reviews">Reviews</a>
+<a href="#booking">Booking</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+<section id="home" class="hero">
+<h2>Premium Haircuts & Grooming</h2>
+
+<p>Vastral Road, Ahmedabad</p>
+
+<button onclick="scrollBooking()">Book Appointment</button>
+
+<a class="whatsapp" href="https://wa.me/919727381028" target="_blank">
+Book via WhatsApp
+</a>
+
+</section>
+
+
+<section id="services" class="section">
+<h2>Our Services</h2>
+
+<div class="service-box">
+
+<div class="card">
+<h3>Hair Cut</h3>
+<p>Professional haircut with styling</p>
+</div>
+
+<div class="card">
+<h3>Beard Trim</h3>
+<p>Perfect beard shaping</p>
+</div>
+
+<div class="card">
+<h3>Hair Styling</h3>
+<p>Modern and classic styles</p>
+</div>
+
+<div class="card">
+<h3>Facial</h3>
+<p>Relaxing skin treatment</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery" class="section dark">
+
+<h2>Hair Style Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=80">
+<img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=600&q=80">
+<img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=80">
+<img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80">
+
+</div>
+
+</section>
+
+<section id="beforeafter" class="section dark">
+
+<h2>Before / After Haircuts</h2>
+
+<div class="ba-container">
+
+<img src="https://images.unsplash.com/photo-1595475038784-bbe439ff41e6" class="after">
+
+<div class="before-wrapper">
+<img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70" class="before">
+</div>
+
+<input type="range" min="0" max="100" value="50" id="slider">
+
+</div>
+
+</section>
+
+
+<section id="about" class="section dark">
+
+<h2>About Our Salon</h2>
+
+<p>
+Welcome to Siddheshwari Hair Style located on Vastral Road, Ahmedabad.
+We provide professional haircuts, beard styling, and grooming services
+with experienced barbers and modern tools.
+</p>
+
+</section>
+
+
+<section id="reviews" class="section">
+<h2>Customer Reviews</h2>
+
+<div class="review-box">
+
+<div class="review">
+⭐ ⭐ ⭐ ⭐ ⭐
+<p>Best haircut in Vastral area!</p>
+<b>Rahul Patel</b>
+</div>
+
+<div class="review">
+⭐ ⭐ ⭐ ⭐ ⭐
+<p>Very professional barber and great service.</p>
+<b>Jay Shah</b>
+</div>
+
+<div class="review">
+⭐ ⭐ ⭐ ⭐ ⭐
+<p>Affordable price and stylish haircut.</p>
+<b>Amit</b>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="booking" class="section">
+
+<h2>Book Appointment</h2>
+
+<form id="bookingForm">
+
+<input type="text" placeholder="Your Name" required>
+<input type="tel" placeholder="Phone Number" required>
+
+<select required>
+
+<option>Select Service</option>
+<option>Hair Cut</option>
+<option>Beard Trim</option>
+<option>Hair Styling</option>
+<option>Facial</option>
+
+</select>
+
+<input type="date" required>
+
+<button type="submit">Book Now</button>
+
+</form>
+
+<p id="success"></p>
+
+</section>
+
+<section id="contact" class="section dark">
+
+<h2>Contact Us</h2>
+
+<p><b>Address:</b> Siddheshwari Hair Style, Vastral Road, Ahmedabad</p>
+<p><b>Phone:</b> +91 9727381028</p>
+<p><b>Opening Hours:</b> 10 AM – 8 PM</p>
+
+<iframe
+src="https://www.google.com/maps?q=Siddheshwari+Hair+Style+Vastral+Ahmedabad&output=embed"
+width="100%"
+height="350"
+style="border:0;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+
+</section>
+
+</section> 
+
+<div class="admin-panel">
+<button onclick="openAdmin()">Admin Dashboard</button>
+</div>
+
+<section id="admin" class="section" style="display:none;">
+
+<h2>Salon Booking Dashboard</h2>
+
+<table border="1" width="100%" id="bookingTable">
+
+<tr>
+<th>Name</th>
+<th>Phone</th>
+<th>Service</th>
+<th>Date</th>
+</tr>
+
+</table>
+
+</section>
+
+<footer>
+<p>© 2026 Siddheshwari Hair Style | Designed by Parth Valand</p>
+</footer>
+<a href="https://wa.me/919727381028" class="whatsapp-float" target="_blank">
+💬
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
