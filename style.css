@@ -227,3 +227,52 @@ th,td{
 padding:12px;
 text-align:center;
 }
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* Book Appointment button (yellow/gold) */
+.btn[href^="#booking"] {
+  background: linear-gradient(90deg, #FFC107, #FFB300);
+  color: #000;
+  box-shadow: 0 5px 15px rgba(255, 193, 7, 0.4);
+}
+
+.btn[href^="#booking"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 193, 7, 0.6);
+}
+
+/* WhatsApp button (green) */
+.btn.whatsapp {
+  background: linear-gradient(90deg, #25D366, #1DA851);
+  color: #fff;
+  margin-left: 10px;
+  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+}
+
+.btn.whatsapp:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(37, 211, 102, 0.6);
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 768px) {
+  .btn {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .btn.whatsapp {
+    margin-left: 0;
+  }
+}
